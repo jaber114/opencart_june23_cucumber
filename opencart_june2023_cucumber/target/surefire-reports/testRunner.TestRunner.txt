@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 46.43 s <<< FAILURE! -- in testRunner.TestRunner
+Login with Valid Credentials.Successful Login with Valid Credentials -- Time elapsed: 17.28 s <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.LoginSteps.user_navigates_to_my_account_page(LoginSteps.java:62)
+	at ✽.the user should be redirected to the MyAccount Page(file:///C:/Users/jaber/Desktop/Selenium/Section%209%20-%20Cucumber%20BDD%20Framework/Cucumber%20Framework%20-%20Part2/opencart_cucumber/./Features/Login.feature:8)
+
+Login with Valid Credentials.Login Data Driven #1 -- Time elapsed: 15.33 s <<< FAILURE!
+java.lang.AssertionError: expected:<false> but was:<true>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:120)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.LoginSteps.user_navigates_to_my_account_page(LoginSteps.java:62)
+	at ✽.the user should be redirected to the MyAccount Page(file:///C:/Users/jaber/Desktop/Selenium/Section%209%20-%20Cucumber%20BDD%20Framework/Cucumber%20Framework%20-%20Part2/opencart_cucumber/./Features/Login.feature:15)
+
